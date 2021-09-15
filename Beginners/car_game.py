@@ -9,7 +9,8 @@ while True:
         print("hey, car is already started..")
     elif command == 'stop':
         print("Car is stopped now")
-    elif
+    elif car_state == command == "stop":
+        print("Hey, car is already stopped..")
     elif command == 'quit':
         break
     elif command == 'help':
